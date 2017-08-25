@@ -2,7 +2,7 @@
 
 Sample Java application convert microsoft document(.doc) to html file, 
 
-I have tested on Java 1.6+, you can try on lower version.
+I have tested on Java 1.6, you can try another version.
 
 Libraly files
 - dom4j-1.6.1.jar
