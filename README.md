@@ -7,6 +7,7 @@ I have tested on Java 1.6, you can try another version.
 Apache POI 3.15
 
 Libraly files
+- commons-collections4-4.1.jar
 - curvesapi-1.04.jar
 - xmlbeans-2.6.0.jar
 - ooxml-schemas-1.3.jar
