@@ -4,6 +4,8 @@ Sample Java application convert microsoft document(.doc, .docx) to html,
 
 I have tested on Java 1.6, you can try another version.
 
+For use Excelconverter, put excelStyle.css to class path
+
 Apache POI 3.15
 
 Libraly files
