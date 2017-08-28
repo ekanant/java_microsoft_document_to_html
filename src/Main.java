@@ -38,6 +38,12 @@ public class Main {
         PrintWriter writer4 = new PrintWriter(appPath + File.separator + "xlsx.html", "UTF-8");
 		writer4.println(sb2.toString());
 		writer4.close();
+		
+		String pptPath = appPath + File.separator + "ppt.ppt";
+		PptConverter.convertToImages(pptPath);
+		
+		String pptxPath = appPath + File.separator + "pptx.pptx";
+		PptxConverter.convertToImages(pptxPath);
 	}
 
 }
