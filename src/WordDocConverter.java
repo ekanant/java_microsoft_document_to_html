@@ -40,7 +40,7 @@ public class WordDocConverter {
 	    serializer.transform(domSource, streamResult);
 	    out.close();
 
-	    html = new String(out.toByteArray());
+	    html = new String(out.toByteArray(), "UTF-8");
 		
 		return html;
 	}
